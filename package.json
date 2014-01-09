@@ -1,13 +1,13 @@
 {
   "name": "Techies Like Me",
   "author": "Suvankar Mazumder<smtechnocrat@gmail.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "homepage": "http://techieslikeme/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/smtechnocrat/smblog.git"
+    "url": "git://github.com/smtechnocrat/techieslikeme.git"
   },
   "bugs": {
-    "url": "https://github.com/smtechnocrat/smblog/issues"
+    "url": "https://github.com/smtechnocrat/techieslikeme/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
