@@ -6,6 +6,14 @@
     
     
     <url>
+        <loc>http://localhost:4000/how-i-built-this-site</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/first-post</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/background-image</loc>
     </url>
     
