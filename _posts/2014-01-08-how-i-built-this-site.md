@@ -13,12 +13,11 @@ share: true
 Yes, I used Jekyll to build this site. If you haven't used a static web generator to create a website before then here is one for you to try. 
 
 ### My Goals for this site
-
-* the site should be simple and fast
+* should be simple and fast
 * should be able to blog without an internet connection
-* the site should be responsive therefore it should look good on all devices
-* the site should be easy to maintain and the only thing I need to do is to post articles
-* the site should have clean CSS so that I can change the look and feel if I wish to do so
+* should be responsive therefore it should look good on all devices
+* should be easy to maintain and the only thing I need to do is to post articles
+* should have clean CSS so that I can change the look and feel if I wish to do so
 
 ### To achieve these goals, I used the following tools:
 + [Jekyll](http://jekyllrb.com/) site generator in order to create a static web site that will be fast and easy to deploy.
@@ -34,11 +33,11 @@ Jekyll is a blog aware static web generator which allows you to publish and main
 
 Apart from Jekyll, I also looked into a Python based static site generator, called [Jinja](http://jinja.pocoo.org/). Looks interesting, however did not get enough time to play around with it.
 
- It uses Markdown which is a simple text-toHTML conversion tool and the Liquid templating engine. if you use git hub to store your precious code then you are already familiar with Markdown syntax. Remember the Readme.md files that get automatically generated for you when you create a new repository in github?
+It uses Markdown which is a simple text-toHTML conversion tool and the Liquid templating engine. If you use git hub to store your precious code then you are already familiar with Markdown syntax. Remember the Readme.md files that get automatically generated for you when you create a new repository in github?
 
-The Jekyll asset bundler plaugin concatenates several javascript files into a single download. It only does this during a deployment build therefore during development you will see all the individual files.
+The Jekyll asset bundler plaugin concatenates several javascript files into a single download. It only does this during a deployment build therefore while developing you will see all the individual files.
 
-Using Rake for very simple build tasks such as commit my changes and resync my remote github repository for this site, clean the last build, run the jekyll server and deploy the site to [Heroku[().
+I am using Rake for very simple build tasks such as commit my changes and resync my remote github repository for this site, clean the last build, run the jekyll server and deploy the site to [Heroku](http://heroku.com).
 
 I am planning to use a lot of images for my blog in the future therefore I found this optipng tool to be quite useful for image optimization. My rake build scripts will scan for all images and automatically run optipng in order shrink the size of all images.
 
